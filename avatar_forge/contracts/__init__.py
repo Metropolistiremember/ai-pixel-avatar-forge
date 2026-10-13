@@ -1,0 +1,1 @@
+"""Shared contracts: the only module plugins are allowed to import from."""
