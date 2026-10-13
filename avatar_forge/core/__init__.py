@@ -1,0 +1,1 @@
+"""Core host: loader, registry, scheduler. No concrete plugin imports."""
