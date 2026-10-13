@@ -1,0 +1,37 @@
+# bytecode / caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# forge runtime
+.forge_cache/
+.forge_models/
+output/
+*.forge.tmp
+*.forge.lock
+
+# native extension build products
+avatar_forge/native/quantizer/build/
+*.pyd
+*.so
+*.dll
+
+# editor / os
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# test & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
